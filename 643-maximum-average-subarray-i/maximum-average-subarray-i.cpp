@@ -1,7 +1,7 @@
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
-        double currentSum;
+        double currentSum = 0;//Let's see if the time complexity cha ges by declaring the variable with the intialization
         for(int i = 0; i<k; i++){
             currentSum += nums[i];
         }
